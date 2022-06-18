@@ -149,7 +149,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    flex-direction: column;
+    width: 100%;
     margin: auto;
 
 
@@ -247,3 +248,14 @@ body {
     background-color: rgb(17, 97, 17, 0.8);
     color: white;
 }
+
+@media (min-width:800px) {
+    .panel {
+        flex-direction:row;
+    }
+}  
+@media (max-width:600px) {
+    .panel {
+        width:100%;
+    }
+}  
