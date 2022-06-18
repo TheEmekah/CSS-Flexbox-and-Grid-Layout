@@ -1,0 +1,249 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.panel {
+    border: 1px solid white;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+
+
+
+}
+
+.sedan-plan {
+    background-color: orange;
+}
+
+.pricing-img {
+    padding: 15px 20px;
+    margin: 10px;
+
+}
+
+.pricing-header {
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 15px 0px;
+    padding-left: 25px;
+    margin: 5px;
+
+}
+
+.suvs-plan {
+    background-color: rgb(29, 123, 136);
+}
+
+.luxury-plan {
+    background-color: rgb(17, 97, 17)
+}
+
+.pricing-features-item {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-weight: 100;
+    margin: 10px;
+    padding: 15px;
+    opacity: 0.8;
+}
+
+
+.panel-button.button-1 {
+    border: 1px solid white;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 15px 25px;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: white;
+    color: orange;
+
+}
+
+.panel-button.button-2 {
+    border: 1px solid white;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 15px 25px;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: white;
+    color: rgb(29, 123, 136);
+
+}
+
+.panel-button.button-3 {
+    border: 1px solid white;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 15px 25px;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: white;
+    color: rgb(17, 97, 17, 0.8);
+
+}
+
+.panel-button.button-1 :hover 
+.panel-button.button-1 :focus{
+    background-color: orange;
+    color: white;
+}
+
+.panel-button.button-2 :hover 
+.panel-button.button-2 :focus{
+    background-color: rgb(29, 123, 136);
+    color: white;
+}
+.panel-button.button-3 :hover 
+.panel-button.button-3 :focus{
+    background-color: rgb(17, 97, 17, 0.8);
+    color: white;
+}
